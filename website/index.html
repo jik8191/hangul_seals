@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chinese Pronunciation Tool</title>
+    <style>
+     <link rel="stylesheet" href="./styles.css">
+    </style>
+  </head>
+
+  <body>
+    
+    <div class="section">
+      <form id="cn_form">
+        <input type="text" name="cn_input" />
+        <button type="submit">Submit</button>
+      </form>
+      <div>
+        <span> Pronunciation: </span>
+        <span id="sound"></span>
+        <br>
+        <span> Unicode Encoding: </span>
+        <span id="utf"></span>
+      </div>
+    </div>
+    <hr />
+
+    <script src="handlers.js" type="text/javascript"></script>
+    <script src="attachBindings.js" type="text/javascript"></script>
+  </body>
+</html>
